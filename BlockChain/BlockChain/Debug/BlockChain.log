@@ -1,0 +1,8 @@
+﻿  BlockChain.cpp
+E:\MyVsCppWordSpace\Example\BlockChain\BlockChain\BlockChain.cpp(52,27): warning C4018: “<”: 有符号/无符号不匹配
+E:\MyVsCppWordSpace\Example\BlockChain\BlockChain\BlockChain.cpp(213,27): warning C4018: “<=”: 有符号/无符号不匹配
+E:\MyVsCppWordSpace\Example\BlockChain\BlockChain\BlockChain.cpp(272,23): warning C4018: “<”: 有符号/无符号不匹配
+BlockChain.obj : error LNK2019: 无法解析的外部符号 _SHA256，函数 "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Block::computeHash(void)" (?computeHash@Block@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) 中引用了该符号
+D:\VistualStudio2022\Community\VC\Tools\MSVC\14.32.31326\lib\x86\libssl.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+D:\VistualStudio2022\Community\VC\Tools\MSVC\14.32.31326\lib\x86\libcrypto.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+E:\MyVsCppWordSpace\Example\BlockChain\Debug\BlockChain.exe : fatal error LNK1120: 1 个无法解析的外部命令
